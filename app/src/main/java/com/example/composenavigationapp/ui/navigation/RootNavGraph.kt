@@ -96,7 +96,7 @@ fun RootNavGraph(
 
                 // Main graph
                 navigation(startDestination = Routes.HOME, route = Routes.MAIN_GRAPH) {
-                    composable(Routes.HOME) { PlaceholderHomeScreen() }
+                    composable(Routes.HOME) { HomeScreen(navController) }
                     composable(Routes.PROFILE) { ProfileScreen() }
                     composable(Routes.SETTINGS) { SettingsScreen() }
                     composable(Routes.ADD) { AddScreen(onClose = { navController.popBackStack() }) }
