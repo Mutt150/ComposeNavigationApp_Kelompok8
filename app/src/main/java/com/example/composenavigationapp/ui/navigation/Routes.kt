@@ -13,4 +13,6 @@ object Routes {
     const val ADD = "add"
     const val ABOUT = "about"
     const val MAIN_GRAPH = "main_graph"
+
+    const val MOOD = "mood"
 }

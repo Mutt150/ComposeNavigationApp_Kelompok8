@@ -71,4 +71,5 @@ dependencies {
 
     // Material Icons (Extended)
     implementation("androidx.compose.material:material-icons-extended")
+
 }
